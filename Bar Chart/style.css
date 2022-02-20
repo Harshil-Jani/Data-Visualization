@@ -1,0 +1,15 @@
+body{
+    margin : 0;
+}
+
+rect{
+    fill: steelblue
+}
+
+text{
+    font-size: 1.4em;
+}
+
+path{
+    display: none;
+}
