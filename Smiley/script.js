@@ -1,6 +1,8 @@
 import * as d3 from "https://cdn.skypack.dev/d3@7";
 
-const svg = d3.select('svg');
+const svg = d3.select('svg')
+    .attr('width',window.innerWidth)
+    .attr('height',window.innerHeight);
 const face = svg.append('circle')
     .attr('r', window.innerHeight/2 - 10)
     .attr('cx',window.innerWidth/2)
