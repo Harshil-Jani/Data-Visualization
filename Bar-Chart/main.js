@@ -29,7 +29,7 @@ const render = data => {
     const yAxis = d3.axisLeft(yScale);
     const xAxis = d3.axisBottom(xScale)
         .tickFormat(xAxisTickFormat)
-        .tickSize(-650);
+        .tickSize(-window.innerHeight/1.16);
 
     const g = svg.append('g')
         .attr('transform',`translate(${margin.left},${margin.top})`);
