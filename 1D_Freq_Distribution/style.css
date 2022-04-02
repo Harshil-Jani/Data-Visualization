@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bar rect {
+    fill: black;
+    shape-rendering: crispEdges;
+  }
+
+.axis{
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+svg{
+    margin-top: 30px;
+}
