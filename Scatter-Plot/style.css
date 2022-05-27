@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    width: 100%;
+}
+circle{
+    fill: violet;
+}
+.tool{
+    position: absolute; 
+    width: 400px;
+    right : 0;
+    bottom : 0;
+}
+#Parameters{
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.legend{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    width: 850px;
+    height: 75px;
+    font-size: 80%;
+    display: none;
+}
+.legend-active{
+    background-color: antiquewhite;
+    padding: 5px;
+    border-radius: 5px;
+    color: brown;
+}
+.axis-label{
+    font-size: 200%;
+}
+
+/* Library Based Colour Differntiation */
+.libG4clhep{
+    fill : red;
+}
+.libG4geometry{
+    fill : green;
+}
+.libG4event{
+    fill : yellow;
+}
+.libG4particles{
+    fill : black;
+}
+.libG4processes{
+    fill : rgb(150, 103, 50);
+}
+.libG4track{
+    fill : blue;
+}
+.libG4tracking{
+    fill : orange;
+}
+
+option:empty{
+    display: none;
+}
